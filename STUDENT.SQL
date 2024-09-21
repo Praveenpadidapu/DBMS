@@ -1,7 +1,7 @@
 create table student (rollno number(4) primary key,name varchar(20) not null,age number(2),Bname varchar(5),perc number(5,2),email varchar(20) unique);
-insert into student values(420,'Gowtham',18,'Cse',96.23,'ksngowtham@gmail.com');
-insert into student values(421,'Deepak',19,'ece',95.23,'deepak@gmail.com');
-insert into student values(422,'Anuram',17,'Cse',94.23,'anuram@gmail.com');
+insert into student values(826,'praveen',18,'Cse',96.23,'pvpk1127@gmail.com');
+insert into student values(827,'kumar',19,'ece',95.23,'kumar@gmail.com');
+insert into student values(828,'venkata',17,'Cse',94.23,'venkata@gmail.com');
 select * from student;
 select rollno, name, age,Bname,perc, email from student where Bname='Cse';
 select * from student order by rollno desc;
